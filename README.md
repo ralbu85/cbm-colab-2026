@@ -38,7 +38,7 @@
 | 3-2 | RUL 예측 ① — 추세를 연장해 고장선에 닿는 시간 구하기 | 80분 | [![Colab에서 열기](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ralbu85/cbm-colab-2026/blob/main/notebooks/3-2_RUL%EC%98%88%EC%B8%A11_%EC%B6%94%EC%84%B8%EC%99%B8%EC%82%BD.ipynb) |
 | 3-3 | RUL 예측 ② — 과거 고장 이력에서 머신러닝으로 배우기 | 100분 | [![Colab에서 열기](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ralbu85/cbm-colab-2026/blob/main/notebooks/3-3_RUL%EC%98%88%EC%B8%A12_%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%ED%9A%8C%EA%B7%80.ipynb) |
 | 3-4 | 언제 교체할까? — 시간 기준 vs 상태 기준 vs 예측 기준 | 90분 | [![Colab에서 열기](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ralbu85/cbm-colab-2026/blob/main/notebooks/3-4_RUL%EB%A1%9C_%EA%B5%90%EC%B2%B4%EC%8B%9C%EC%A0%90_%EA%B2%B0%EC%A0%95%ED%95%98%EA%B8%B0.ipynb) |
-| 3-5 | [선택 심화] 고급 시계열 기법 — 유사 궤적, 기초모델, 파인튜닝 | 60~80분 · 선택 | [![Colab에서 열기](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ralbu85/cbm-colab-2026/blob/main/notebooks/3-5_%EC%84%A0%ED%83%9D%EC%8B%AC%ED%99%94_%EC%8B%9C%EA%B3%84%EC%97%B4%EA%B8%B0%EC%B4%88%EB%AA%A8%EB%8D%B8.ipynb) |
+| 3-5 | [선택 심화] 고급 시계열 기법 — 유사 궤적, 기초모델, 파인튜닝, 고장 위험 모델 | 70~90분 · 선택 | [![Colab에서 열기](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ralbu85/cbm-colab-2026/blob/main/notebooks/3-5_%EC%84%A0%ED%83%9D%EC%8B%AC%ED%99%94_%EC%8B%9C%EA%B3%84%EC%97%B4%EA%B8%B0%EC%B4%88%EB%AA%A8%EB%8D%B8.ipynb) |
 
 ## 데이터 출처
 
