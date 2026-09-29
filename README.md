@@ -38,7 +38,7 @@
 | 3-2 | RUL 예측 ① — 추세를 연장해 고장선에 닿는 시간 구하기 | 80분 | [![Colab에서 열기](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ralbu85/cbm-colab-2026/blob/main/notebooks/3-2_RUL%EC%98%88%EC%B8%A11_%EC%B6%94%EC%84%B8%EC%99%B8%EC%82%BD.ipynb) |
 | 3-3 | RUL 예측 ② — 과거 고장 이력에서 머신러닝으로 배우기 | 100분 | [![Colab에서 열기](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ralbu85/cbm-colab-2026/blob/main/notebooks/3-3_RUL%EC%98%88%EC%B8%A12_%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%ED%9A%8C%EA%B7%80.ipynb) |
 | 3-4 | 언제 교체할까? — 시간 기준 vs 상태 기준 vs 예측 기준 | 90분 | [![Colab에서 열기](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ralbu85/cbm-colab-2026/blob/main/notebooks/3-4_RUL%EB%A1%9C_%EA%B5%90%EC%B2%B4%EC%8B%9C%EC%A0%90_%EA%B2%B0%EC%A0%95%ED%95%98%EA%B8%B0.ipynb) |
-| 3-5 | [선택 심화] 시계열 기초모델(PatchTST)로 미래 전류를 예측해 RUL 구하기 | 40~60분 · 선택 | [![Colab에서 열기](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ralbu85/cbm-colab-2026/blob/main/notebooks/3-5_%EC%84%A0%ED%83%9D%EC%8B%AC%ED%99%94_%EC%8B%9C%EA%B3%84%EC%97%B4%EA%B8%B0%EC%B4%88%EB%AA%A8%EB%8D%B8.ipynb) |
+| 3-5 | [선택 심화] 고급 시계열 기법 — 유사 궤적, 기초모델, 파인튜닝 | 60~80분 · 선택 | [![Colab에서 열기](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ralbu85/cbm-colab-2026/blob/main/notebooks/3-5_%EC%84%A0%ED%83%9D%EC%8B%AC%ED%99%94_%EC%8B%9C%EA%B3%84%EC%97%B4%EA%B8%B0%EC%B4%88%EB%AA%A8%EB%8D%B8.ipynb) |
 
 ## 데이터 출처
 
@@ -49,4 +49,4 @@
 | 압출기 필터 막힘 RUL 실험 | Ferreira, Ko, Li, Otto, *The University of Melbourne – Extrusion Filter RUL Dataset*, [Zenodo](https://zenodo.org/records/20710452), [데이터 논문](https://doi.org/10.1016/j.dib.2026.113254) | CC BY 4.0 |
 | 나눔고딕 글꼴 | NAVER | SIL OFL 1.1 (`fonts/OFL.txt`) |
 
-수업용으로 가공했습니다: 유압 데이터는 사이클별 특징을 계산하고 학습/평가를 상태 조합 단위로 나눴습니다. 필터 데이터는 1초 기록(같은 초의 중복은 평균, 빠진 초는 직전 값으로 최대 2초 채움)과 이를 10초씩 평균한 표를 두고, 분석 대상 41회를 학습 33회 / 평가 8회로 나눴습니다. 선택 심화(3-5)의 저장된 예측은 [IBM Granite PatchTST-FM r2](https://huggingface.co/ibm-granite/granite-timeseries-patchtst-fm-r2)의 실제 출력입니다.
+수업용으로 가공했습니다: 유압 데이터는 사이클별 특징을 계산하고 학습/평가를 상태 조합 단위로 나눴습니다. 필터 데이터는 1초 기록(같은 초의 중복은 평균, 빠진 초는 직전 값으로 최대 2초 채움)과 이를 10초씩 평균한 표를 두고, 분석 대상 41회를 학습 33회 / 평가 8회로 나눴습니다. 선택 심화(3-5)의 저장된 예측은 [IBM Granite PatchTST-FM r2](https://huggingface.co/ibm-granite/granite-timeseries-patchtst-fm-r2)의 실제 출력입니다(zero-shot, 그리고 학습용 필터 33개로 1 epoch 파인튜닝한 모델).
